@@ -18,7 +18,7 @@
     <x-rich-text-trix-styles />
 
 </head>
-<body class="font-sans antialiased background-image-hero">
+<body class="font-sans antialiased">
 <x-jet-banner />
 
 <div class="min-h-screen">
