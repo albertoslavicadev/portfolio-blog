@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-image-hero {
+    background: url("../assets/3.jpg");
+}
+
+
+.cube-wrap {
+    --size: 15vmin;
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    width: 0;
+    height: 0;
+    perspective: 100vmin;
+}
+@media screen and (max-width: 800px) {
+    .cube-wrap {
+        --size: 10vmin;
+        position: fixed;
+        top: 40%;
+        left: 99%;
+        width: 0;
+        height: 0;
+        perspective: 100vmin;
+    }
+}
+
+.cube {
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateZ(45deg) rotateY(-45deg);
+    animation: cube 2s linear;
+}
+@keyframes cube {
+    to {
+        transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
+    }
+}
+
+.side {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    background-color: #eee;
+    backface-visibility: visible;
+    top: calc(var(--size) * -.5);
+    left: calc(var(--size) * -.5);
+}
+.top {
+    background-color: #1a202c;
+    transform: rotateX(90deg) translateZ(calc(var(--size) * .5));
+}
+.bottom {
+    background-color: #1f2937;
+    transform: rotateX(90deg) translateZ(calc(var(--size) * -.5));
+}
+.left {
+    background-color: #718096;
+    transform: rotateY(90deg) translateZ(calc(var(--size) * .5));
+}
+.right {
+    background-color: #111827;
+    transform: rotateY(90deg) translateZ(calc(var(--size) * -.5));
+}
+.front {
+    background-color: #374151;
+    transform: translateZ(calc(var(--size) * .5));
+}
+.back {
+    background-color: #718096;
+    transform: translateZ(calc(var(--size) * -.5));
+}
+
+:root * {
+    /* Pause the animation */
+    animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+#canv {
+    height: 10%;
+    width: 100%;
+}
