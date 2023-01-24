@@ -33,3 +33,7 @@ Route::get('/policy', function() {
 Route::get('/terms', function() {
     return view('terms')->name('terms');
 });
+
+Route::get('/works', function () {
+    return view('work');
+});

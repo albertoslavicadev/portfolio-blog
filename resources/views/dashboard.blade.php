@@ -1,14 +1,14 @@
 <x-app-layout>
     {{-- Hero --}}
     <div class="background-image-hero">
-        <div class="relative px- lg:px-2">
+        <div class="relative lg:px-2">
             <div class="mx-auto max-w-3xl pt-20 pb-20 sm:pt-48 sm:pb-40">
                 <div>
                     <div class="hidden sm:flex sm:justify-center">
                         <div
                             class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                             <span class="text-gray-400">
-                                Check my courses <a href="#" class="font-semibold text-gray-200"><span
+                                Check my components <a href="#" class="font-semibold text-gray-200"><span
                                         class="absolute inset-0" aria-hidden="true"></span>here! <span
                                         aria-hidden="true">&rarr;</span></a>
                             </span>
@@ -20,34 +20,15 @@
                         <p class="mt-6 text-lg leading-8 text-gray-300 sm:text-center">Full-Stack Web Developer with
                             a
                             passion for coding and designing beautiful blazingly fast and responsive apps</p>
-                        <div class="mt-8 flex gap-x-4 sm:justify-center">
+                        <div class="mt-4 flex gap-x-4 sm:justify-center">
                             <a href="#"
                                 class="inline-block rounded-lg bg-gray-700 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-gray-900 hover:ring-white">
-                                Explore my works
+                                Explore my works!
                                 <span class="text-white" aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        {{-- Terminal --}}
-        <div class="w-68 md:w-1/2 md:mx-auto">
-            <div class=" shadow-2xl subpixel-antialiased rounded h-78 bg-black border-black mx-auto ">
-                <div class="flex items-center h-6 rounded-t bg-white border-b border-gray-500 text-center text-black"
-                    id="headerTerminal">
-                    <div class="flex ml-2 items-center text-center border-red-900 bg-red-500 shadow-inner rounded-full w-3 h-3"
-                        id="closebtn"></div>
-                    <div class="ml-2 border-yellow-900 bg-yellow-500 shadow-inner rounded-full w-3 h-3" id="minbtn">
-                    </div>
-                    <div class="ml-2 border-green-900 bg-green-500 shadow-inner rounded-full w-3 h-3" id="maxbtn">
-                    </div>
-                    <div class="mx-auto pr-16" id="terminaltitle">
-                        <p class="text-center text-sm">Terminal</p>
-                    </div>
-                </div>
-                <canvas class="text-green-200 font-mono text-xl bg-black" id="console" width="50" height="290"
-                    id="canv" />
             </div>
         </div>
         {{-- Cube --}}
@@ -66,7 +47,7 @@
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="sm:text-center">
                     <h2 class="text-lg font-semibold leading-8 text-gray-400">Skills</h2>
-                    <p class="mt-2 text-3xl font-bold tracking-tight text-gray-1000 sm:text-4xl">Differents language to
+                    <p class="mt-2 text-3xl font-bold tracking-tight text-gray-1000 sm:text-4xl">Differents languages to
                         create the perfect mix</p>
                     <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-200">A list of tecnologies used to make
                         a
@@ -157,6 +138,58 @@
             </div>
         </div>
     </div>
+    <div class="h-screen flex items-center justify-center background-image-form">
+
+        <div class="max-w-2xl mx-auto">
+            <div class="sm:text-center pb-4">
+                <h2 class="text-lg font-semibold leading-8 text-gray-400">My experience</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">My journey to software development</p>
+                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-200">A list of tecnologies used to make
+                    a
+                    blazingly fast app with good design and easy to maintain. I like to code making sure my
+                    components
+                    are reusable.</p>
+            </div>
+
+            <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-10">
+                <li class="mb-10 ml-4">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                    </div>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022</time>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Application UI code in Tailwind CSS</h3>
+                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages
+                        including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce &amp; Marketing
+                        pages.</p>
+                    <a href="#"
+                       class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn
+                        more <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20"
+                                  xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                  clip-rule="evenodd"></path>
+                        </svg></a>
+                </li>
+                <li class="mb-10 ml-4">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                    </div>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022</time>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
+                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first
+                        designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                </li>
+                <li class="ml-4">
+                    <div
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                    </div>
+                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind CSS</h3>
+                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components
+                        and interactive elements built on top of Tailwind CSS.</p>
+                </li>
+            </ol>
+        </div>
 </x-app-layout>
 
 <script>
@@ -165,47 +198,82 @@
             .innerHeight));
     }, false);
 
-    // Get the canvas node and the drawing context
-    const canvas = document.getElementById('canv');
-    const ctx = canvas.getContext('2d');
+    var canvas = document.getElementById( 'canvas' ),
+        ctx = canvas.getContext( '2d' ),
+        canvas2 = document.getElementById( 'canvas2' ),
+        ctx2 = canvas2.getContext( '2d' ),
+        // full screen dimensions
+        cw = window.innerWidth,
+        ch = window.innerHeight,
+        charArr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'],
+        maxCharCount = 100,
+        fallingCharArr = [],
+        fontSize = 15,
+        maxColums = cw/(fontSize);
+    canvas.width = canvas2.width = cw;
+    canvas.height = canvas2.height = ch;
 
-    // set the width and height of the canvas
-    const w = canvas.width;
-    const h = canvas.height;
 
-    // draw a black rectangle of width and height same as that of the canvas
-    ctx.fillStyle = '#000';
-    ctx.fillRect(0, 0, w, h);
-
-    const cols = Math.floor(w / 20) + 1;
-    const ypos = Array(cols).fill(0);
-
-    function matrix() {
-        // Draw a semitransparent black rectangle on top of previous drawing
-        ctx.fillStyle = '#0001';
-        ctx.fillRect(0, 0, w, h);
-
-        // Set color to green and font to 15pt monospace in the drawing context
-        ctx.fillStyle = '#0f0';
-        ctx.font = '10pt monospace';
-
-        // for each column put a random character at the end
-        ypos.forEach((y, ind) => {
-            // generate a random character
-            const text = String.fromCharCode(Math.random() * 128);
-
-            // x coordinate of the column, y coordinate is already given
-            const x = ind * 20;
-            // render the character at (x, y)
-            ctx.fillText(text, x, y);
-
-            // randomly reset the end of the column if it's at least 100px high
-            if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
-            // otherwise just move the y coordinate for the column 20px down,
-            else ypos[ind] = y + 20;
-        });
+    function randomInt( min, max ) {
+        return Math.floor(Math.random() * ( max - min ) + min);
     }
 
-    // render the animation at 20 FPS.
-    setInterval(matrix, 50);
+    function randomFloat( min, max ) {
+        return Math.random() * ( max - min ) + min;
+    }
+
+    function Point(x,y)
+    {
+        this.x = x;
+        this.y = y;
+    }
+
+    Point.prototype.draw = function(ctx){
+
+        this.value = charArr[randomInt(0,charArr.length-1)].toUpperCase();
+        this.speed = randomFloat(1,5);
+
+
+        ctx2.fillStyle = "rgb(255, 255, 255)";
+        ctx2.font = fontSize+"px san-serif";
+        ctx2.fillText(this.value,this.x,this.y);
+
+        ctx.fillStyle = "rgb(255, 255, 255)";
+        ctx.font = fontSize+"px san-serif";
+        ctx.fillText(this.value,this.x,this.y);
+
+
+
+        this.y += this.speed;
+        if(this.y > ch)
+        {
+            this.y = randomFloat(-100,0);
+            this.speed = randomFloat(2,5);
+        }
+    }
+
+    for(var i = 0; i < maxColums ; i++) {
+        fallingCharArr.push(new Point(i*fontSize,randomFloat(-500,0)));
+    }
+
+
+    var update = function()
+    {
+
+        ctx.fillStyle = "rgba(0,0,0,0.05)";
+        ctx.fillRect(0,0,cw,ch);
+
+        ctx2.clearRect(0,0,cw,ch);
+
+        var i = fallingCharArr.length;
+
+        while (i--) {
+            fallingCharArr[i].draw(ctx);
+            var v = fallingCharArr[i];
+        }
+
+        requestAnimationFrame(update);
+    }
+
+    update();
 </script>

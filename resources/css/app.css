@@ -3,19 +3,29 @@
 @tailwind utilities;
 
 .background-image-hero {
-background: url("../assets/3.jpg"), ;
+background: url("../assets/3.jpg") ;
 }
 
 .background-image-form {
 background: url("../assets/1.jpg");
 }
 
+.background-image-works {
+    background: url("../assets/2.jpg");
+}
+.background-image-cards {
+    background: url("../assets/5.jpg");
+}
+.cartoon {
+    background-image: url("../assets/cartoon.png");
+}
+
 
 .cube-wrap {
---size: 15vmin;
+--size: 5vmin;
 position: fixed;
 top: 40%;
-left: 10%;
+left: 5%;
 width: 0;
 height: 0;
 perspective: 100vmin;
@@ -87,7 +97,7 @@ animation-iteration-count: 1;
 animation-fill-mode: both;
 }
 
-#canv {
-height: 10%;
-width: 100%;
+canvas {
+    height: 100%;
+    width: 100%;
 }
