@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class=" background-image-cards p-15 ">
-        <div class=" pt-30 pb-30 sm:pt-48 sm:pb-40 grid grid-cols-2 gap-1 place-items-center ">
+        <div class=" pt-30 pb-30 sm:pt-48 sm:pb-40 grid grid-cols-2 gap-1 grid-flow-row auto-rows-min place-items-center">
 
             @foreach($work as $key)
             <a href={{ $key->github_link }} class=" dark:bg-opacity-60 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mt-4 mb-4 p-2">

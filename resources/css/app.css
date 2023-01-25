@@ -31,7 +31,9 @@
     background-image: url("../assets/cartoon.png");
 }
 
-
+.grid {
+    grid-auto-rows: 1fr;
+}
 .cube-wrap {
     --size: 5vmin;
     position: fixed;
