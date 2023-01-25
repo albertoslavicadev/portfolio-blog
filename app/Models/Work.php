@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Work extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['name', 'page_link', 'github_link', 'description'];
+
+    public function skills(){
+        return $this->belongsToMany('App\Models\Skill');
+    }
 }

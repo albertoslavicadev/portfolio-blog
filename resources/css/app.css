@@ -2,102 +2,203 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.background-image-section {
+    background: url("../assets/3.jpg");
+}
+
 .background-image-hero {
-background: url("../assets/3.jpg") ;
+    background: url("../assets/6.jpg");
 }
 
 .background-image-form {
-background: url("../assets/1.jpg");
+    background: url("../assets/8.jpg");
 }
 
 .background-image-works {
     background: url("../assets/2.jpg");
+    background-attachment: fixed;
 }
+
 .background-image-cards {
-    background: url("../assets/5.jpg");
+    background: url("../assets/4.jpg");
 }
+
 .cartoon {
     background-image: url("../assets/cartoon.png");
 }
 
 
 .cube-wrap {
---size: 5vmin;
-position: fixed;
-top: 40%;
-left: 5%;
-width: 0;
-height: 0;
-perspective: 100vmin;
+    --size: 5vmin;
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    width: 0;
+    height: 0;
+    perspective: 100vmin;
 }
+
 @media screen and (max-width: 800px) {
-.cube-wrap {
---size: 10vmin;
-position: fixed;
-top: 40%;
-left: 99%;
-width: 0;
-height: 0;
-perspective: 100vmin;
-}
+    .cube-wrap {
+        --size: 10vmin;
+        position: fixed;
+        top: 40%;
+        left: 99%;
+        width: 0;
+        height: 0;
+        perspective: 100vmin;
+    }
 }
 
 .cube {
-transform-style: preserve-3d;
-transform: rotateX(0deg) rotateZ(45deg) rotateY(-45deg);
-animation: cube 2s linear;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateZ(45deg) rotateY(-45deg);
+    animation: cube 2s linear;
 }
+
 @keyframes cube {
-to {
-transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
-}
+    to {
+        transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
+    }
 }
 
 .side {
-position: absolute;
-width: var(--size);
-height: var(--size);
-background-color: #eee;
-backface-visibility: visible;
-top: calc(var(--size) * -.5);
-left: calc(var(--size) * -.5);
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    background-color: #eee;
+    backface-visibility: visible;
+    top: calc(var(--size) * -.5);
+    left: calc(var(--size) * -.5);
 }
+
 .top {
-background-color: #1a202c;
-transform: rotateX(90deg) translateZ(calc(var(--size) * .5));
+    background-color: #1a202c;
+    transform: rotateX(90deg) translateZ(calc(var(--size) * .5));
 }
+
 .bottom {
-background-color: #1f2937;
-transform: rotateX(90deg) translateZ(calc(var(--size) * -.5));
+    background-color: #1f2937;
+    transform: rotateX(90deg) translateZ(calc(var(--size) * -.5));
 }
+
 .left {
-background-color: #718096;
-transform: rotateY(90deg) translateZ(calc(var(--size) * .5));
+    background-color: #718096;
+    transform: rotateY(90deg) translateZ(calc(var(--size) * .5));
 }
+
 .right {
-background-color: #111827;
-transform: rotateY(90deg) translateZ(calc(var(--size) * -.5));
+    background-color: #111827;
+    transform: rotateY(90deg) translateZ(calc(var(--size) * -.5));
 }
+
 .front {
-background-color: #374151;
-transform: translateZ(calc(var(--size) * .5));
+    background-color: #374151;
+    transform: translateZ(calc(var(--size) * .5));
 }
+
 .back {
-background-color: #718096;
-transform: translateZ(calc(var(--size) * -.5));
+    background-color: #718096;
+    transform: translateZ(calc(var(--size) * -.5));
 }
 
 :root * {
-/* Pause the animation */
-animation-play-state: paused;
-/* Bind the animation to scroll */
-animation-delay: calc(var(--scroll) * -1s);
-/* These last 2 properites clean up overshoot weirdness */
-animation-iteration-count: 1;
-animation-fill-mode: both;
+    /* Pause the animation */
+    animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
 }
 
 canvas {
     height: 100%;
     width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+}
+
+.text {
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+    to {
+        opacity: 1;
+    }
 }

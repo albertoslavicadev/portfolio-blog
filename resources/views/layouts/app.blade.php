@@ -42,13 +42,13 @@
 @stack('modals')
 
 @livewireScripts
-<footer class="bg-gradient-to-r from-white via-[#ece7ed] to-white">
+<footer class="bg-black">
     <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-                <img src={logo} class="mr-5 h-12 sm:h-12" alt="logo" />
+                <img src="" class="mr-5 h-12 sm:h-12" alt="logo" />
 
-                <div class="flex mt-12 space-x-6 text-gray-600">
+                <div class="flex mt-12 space-x-6 text-gray-100">
                     <a
                         class="hover:opacity-75"
                         href
@@ -109,7 +109,7 @@
             </div>
             <div>
                 <p class="font-medium">Helpful Links</p>
-                <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-300">
                     <a class="hover:opacity-75" href>
                         Contact
                     </a>
@@ -120,7 +120,7 @@
             </div>
             <div>
                 <p class="font-medium">Legal</p>
-                <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-300">
                     <a class="hover:opacity-75" href="/policy">
                         Privacy Policy
                     </a>

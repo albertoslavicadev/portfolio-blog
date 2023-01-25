@@ -37,3 +37,5 @@ Route::get('/terms', function() {
 Route::get('/works', function () {
     return view('work');
 });
+
+Route::resource('works', App\Http\Controllers\WorkController::class);
