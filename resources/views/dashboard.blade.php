@@ -1,9 +1,9 @@
 <x-app-layout>
     {{-- Hero --}}
     <div class="">
-        <div class="background-image-hero p-20">
+        <div class="background-image-hero p-20 phone:p-4 phone:pt-20">
             <div class="relative lg:px-2">
-                <div class="lg:mx-auto lg:max-w-xl 2xl:max-w-none pt-20 pb-20 sm:pt-48 sm:pb-40 m-10">
+                <div class="grid-flow-row auto-rows-min place-items-center2xl:max-w-none pt-20 pb-20 sm:pt-48 sm:pb-40 m-10 phone:p-0 phone:max">
                     <div>
                         <div class="hidden sm:flex sm:justify-center pb-14">
                             <div
@@ -11,7 +11,7 @@
                             </div>
                         </div>
                         <div>
-                            <h1 class="2xl:text-7xl 2xl:mt-20 2xl:pt-20 text-4xl font-bold text-white tracking-tight sm:text-center sm:text-6xl">
+                            <h1 class="2xl:text-7xl 2xl:mt-20 2xl:pt-20 lg:text-4xl font-bold text-white text-center phone:text-3xl">
                                 Alberto <span
                                     class="text-purple-500">Slavica </span>Portfolio</h1>
                             <p class="2xl:text-3xl mt-6 text-lg leading-8 text-gray-300 sm:text-center">Full-Stack Web
@@ -193,7 +193,4 @@
         document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window
             .innerHeight));
     }, false);
-    $(window).on('load', function () {
-        $('#myModal').modal('show');
-    });
 </script>
