@@ -3,17 +3,19 @@
     <div class="">
         <div class="background-image-hero p-20">
             <div class="relative lg:px-2">
-                <div class="mx-auto max-w-3xl pt-20 pb-20 sm:pt-48 sm:pb-40 m-20">
+                <div class="lg:mx-auto lg:max-w-xl 2xl:max-w-none pt-20 pb-20 sm:pt-48 sm:pb-40 m-10">
                     <div>
                         <div class="hidden sm:flex sm:justify-center pb-14">
                             <div
-                                class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                                class="relative overflow-hidden rounded-full py-1.5 px-2 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                             </div>
                         </div>
                         <div>
-                            <h1 class="text-4xl font-bold text-white tracking-tight sm:text-center sm:text-6xl">Alberto <span
+                            <h1 class="2xl:text-7xl 2xl:mt-20 2xl:pt-20 text-4xl font-bold text-white tracking-tight sm:text-center sm:text-6xl">
+                                Alberto <span
                                     class="text-purple-500">Slavica </span>Portfolio</h1>
-                            <p class="mt-6 text-lg leading-8 text-gray-300 sm:text-center">Full-Stack Web Developer with
+                            <p class="2xl:text-3xl mt-6 text-lg leading-8 text-gray-300 sm:text-center">Full-Stack Web
+                                Developer with
                                 a
                                 passion for coding and designing beautiful blazingly fast and responsive apps</p>
                             <div class="mt-4 flex gap-x-4 sm:justify-center">
@@ -34,34 +36,36 @@
     <div class="py-12 sm:py-32 lg:py-12 background-image-form pb-20">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 p-20">
             <div class="sm:text-center pb-20">
-                <h2 class="text-lg font-semibold leading-8 text-gray-400">Skills</h2>
-                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">Differents languages to
+                <h2 class="text-lg 2xl:text-3xl 2xl:mt-20 font-semibold leading-8 text-gray-400">Skills</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight 2xl:text-6xl text-gray-100 sm:text-4xl">Differents
+                    languages to
                     create the perfect mix</p>
-                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-200">A list of tecnologies used to make
+                <p class="mx-auto 2xl:text-3xl mt-6 2xl:max-w-5xl max-w-2xl text-lg leading-8 text-gray-200">A list of
+                    tecnologies used to make
                     a
                     blazingly fast app with good design and easy to maintain. I like to code making sure my
                     components
                     are reusable.</p>
             </div>
 
-            <div class="mt-20 max-w-lg sm:mx-auto md:max-w-none pb-5">
-                <div class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
-                    <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
+            <div class="mt-15 max-w-lg 2xl:max-w-none sm:mx-auto md:max-w-none pb-5">
+                <div class="grid grid-cols-1 gap-y-3 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
+                    <div class="relative flex flex-col gap-4 sm:flex-row md:flex-col lg:flex-row">
                         <div
-                            class="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-black sm:shrink-0">
+                            class="flex h-12 p-2 text-black w-12 items-center justify-center rounded-xl bg-white text-black sm:shrink-0">
                             <!-- Heroicon name: outline/globe-alt -->
-                            <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                 viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                      d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"/>
+                            <svg height="2500" viewBox="0 -.11376601 49.74245785 51.31690859" width="2418"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z"
+                                    fill="#00000"/>
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold leading-8 text-gray-100">Lorem, ipsum dolor.</p>
-                            <p class="mt-2 text-base leading-7 text-gray-300">Lorem ipsum, dolor sit amet
-                                consectetur
-                                adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                                blanditiis ratione.</p>
+                            <p class="text-lg font-semibold leading-8 2xl:text-4xl text-gray-100">Laravel, PHP and RUST.</p>
+                            <p class="mt-2 text-base 2xl:text-2xl leading-7 text-gray-200">This is what I'm the best
+                                using. I developed few applications including e-commerces and management/administrative
+                                softwares for web and different CLI tools using RUST. </p>
                         </div>
                     </div>
 
@@ -76,11 +80,9 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold leading-8 text-gray-100">Lorem, ipsum dolor.</p>
-                            <p class="mt-2 text-base leading-7 text-gray-300">Lorem ipsum, dolor sit amet
-                                consectetur
-                                adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                                blanditiis ratione.</p>
+                            <p class="text-lg font-semibold 2xl:text-4xl leading-8 text-gray-100">React, Angular and Typescript.</p>
+                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">These are the front-end libraries, framework and languages that I know.
+                            Of course I know JS as-well but typescript is just better.</p>
                         </div>
                     </div>
 
@@ -95,11 +97,8 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold leading-8 text-gray-100">Lorem, ipsum dolor.</p>
-                            <p class="mt-2 text-base leading-7 text-gray-300">Lorem ipsum, dolor sit amet
-                                consectetur
-                                adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                                blanditiis ratione.</p>
+                            <p class="text-lg 2xl:text-4xl font-semibold leading-8 text-gray-100">MySQL, PostgresSQL, MongoDB</p>
+                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">These are the different kinds of databases I used for my personal projects and for work.</p>
                         </div>
                     </div>
 
@@ -114,11 +113,8 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold leading-8 text-gray-100">Lorem, ipsum dolor.</p>
-                            <p class="mt-2 text-base leading-7 text-gray-300">Lorem ipsum, dolor sit amet
-                                consectetur
-                                adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                                blanditiis ratione.</p>
+                            <p class="text-lg 2xl:text-4xl font-semibold leading-8 text-gray-100">Azure, AWS, Docker and Kubernetes</p>
+                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">In my current job I'm also using Azure and AWS depending on the project to deploy contenerized application orchestrated utilizing Kubernetes</p>
                         </div>
                     </div>
                 </div>
@@ -130,61 +126,57 @@
 
         <div class="max-w-2xl mx-auto">
             <div class="sm:text-center pb-4">
-                <h2 class="text-lg font-semibold leading-8 text-gray-400">My experience</h2>
-                <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">My journey to software
+                <h2 class="text-lg font-semibold leading-2 text-gray-400 2xl:text-3xl">My experience</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight  2xl:text-5xl text-white sm:text-4xl">My journey to
+                    software
                     development</p>
-                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-200">A list of tecnologies used to make
-                    a
-                    blazingly fast app with good design and easy to maintain. I like to code making sure my
-                    components
-                    are reusable.</p>
+                <p class="mx-auto mt-6 max-w-2xl text-lg leading-8  2xl:text-2xl text-gray-200"></p>
             </div>
 
-            <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-10">
+            <ol class="relative border-l border-gray-200 dark:border-gray-200 mt-10">
                 <li class="mb-10 ml-4">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-200 dark:bg-gray-500">
                     </div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2022
+                    <time class="mb-1  2xl:text-2xl text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                        February 2022
                     </time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Application UI code in Tailwind
+                    <h3 class="text-lg  2xl:text-3xl font-semibold text-gray-900 dark:text-white">Application UI code in
+                        Tailwind
                         CSS</h3>
-                    <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages
+                    <p class="mb-4 mt-3  2xl:text-2xl text-base font-normal text-gray-500 dark:text-gray-300">Get access
+                        to over 20+ pages
                         including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce &amp;
                         Marketing
                         pages.</p>
-                    <a href="#"
-                       class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn
-                        more
-                        <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                  clip-rule="evenodd"></path>
-                        </svg>
-                    </a>
                 </li>
                 <li class="mb-10 ml-4">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-200 dark:bg-gray-500">
                     </div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2022
+                    <time class="mb-1 2xl:text-2xl text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                        March 2022
                     </time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Marketing UI design in Figma</h3>
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components
+                    <h3 class="text-lg 2xl:text-3xl font-semibold text-gray-900 dark:text-white">Marketing UI design in
+                        Figma</h3>
+                    <p class="text-base 2xl:text-2xl font-normal text-gray-500 dark:text-gray-300">All of the pages and
+                        components
                         are first
                         designed in Figma and we keep a parity between the two versions even as we update the
                         project.</p>
                 </li>
                 <li class="ml-4">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-200 dark:bg-gray-500">
                     </div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022
+                    <time class="mb-1 2xl:text-2xl text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                        April 2022
                     </time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">E-Commerce UI code in Tailwind
+                    <h3 class="text-lg 2xl:text-3xl font-semibold text-gray-900 dark:text-white">E-Commerce UI code in
+                        Tailwind
                         CSS</h3>
-                    <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web
+                    <p class="text-base 2xl:text-2xl font-normal text-gray-500 dark:text-gray-300">Get started with
+                        dozens of web
                         components
                         and interactive elements built on top of Tailwind CSS.</p>
                 </li>
@@ -201,7 +193,7 @@
         document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window
             .innerHeight));
     }, false);
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         $('#myModal').modal('show');
     });
 </script>
