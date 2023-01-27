@@ -1,20 +1,19 @@
 <x-app-layout>
     {{-- Hero --}}
     <div class="">
-        <div class="background-image-hero p-20 phone:p-4 phone:pt-20">
+        <div class="background-image-hero p-20 sm:mt-20 phone:p-4 phone:pt-20">
             <div class="lg:px-2">
                 <div
                     class="grid-flow-row auto-rows-min place-items-center 2xl:max-w-none pt-20 pb-20 sm:pt-48 sm:pb-40 m-10 phone:pt-20 phone:max">
                     <div>
                         <div>
-                            <h1 class="2xl:text-7xl 2xl:mt-20 2xl:pt-20 lg:text-4xl font-bold text-white text-center phone:text-3xl">
+                            <h1 class="2xl:text-7xl 2xl:mt-20 2xl:pt-20 text-6xl font-bold text-white text-center phone:text-2xl">
                                 Alberto <span
                                     class="text-purple-500">Slavica </span>Portfolio</h1>
-                            <p class="2xl:text-3xl mt-6 text-lg leading-8 text-center font-semibold text-gray-100 sm:text-center">Full-Stack Web
+                            <p class="2xl:text-3xl mt-10 text-3xl leading-8 text-center font-semibold text-gray-100 sm:text-center">Full-Stack Web
                                 Developer with
                                 a
                                 passion for coding and designing beautiful blazingly fast and responsive apps</p>
-
                         </div>
                     </div>
 
