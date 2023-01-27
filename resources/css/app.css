@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@media screen and (max-width: 350px) {
+    * {
+        user-select: none;
+    }
+}
 
 ::-webkit-scrollbar {
     width: 0 !important
@@ -12,7 +16,6 @@
     background-image: url("../assets/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 .background-image-hero {
@@ -26,8 +29,8 @@
     background: url("../assets/8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
+
 
 .background-image-works {
     background: url("../assets/2.jpg");
@@ -41,7 +44,6 @@
     background: url("../assets/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 .grid {
@@ -136,16 +138,13 @@ canvas {
     width: 100%;
 }
 
-@media screen and (max-width: 700px) {
-    .chevron {
-        position: relative;
-        width: 28px;
-        height: 8px;
-        opacity: 0;
-        transform: scale3d(0.5, 0.5, 0.5);
-        animation: move 3s ease-out infinite;
-    }
+.containeras {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: inherit;
 }
+
 .chevron {
     position: absolute;
     width: 28px;

@@ -2,38 +2,37 @@
     {{-- Hero --}}
     <div class="">
         <div class="background-image-hero p-20 phone:p-4 phone:pt-20">
-            <div class="relative lg:px-2">
-                <div class="grid-flow-row auto-rows-min place-items-center2xl:max-w-none pt-20 pb-20 sm:pt-48 sm:pb-40 m-10 phone:p-0 phone:max">
+            <div class="lg:px-2">
+                <div
+                    class="grid-flow-row auto-rows-min place-items-center 2xl:max-w-none pt-20 pb-20 sm:pt-48 sm:pb-40 m-10 phone:pt-20 phone:max">
                     <div>
-                        <div class="hidden sm:flex sm:justify-center pb-14">
-                            <div
-                                class="relative overflow-hidden rounded-full py-1.5 px-2 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                            </div>
-                        </div>
                         <div>
                             <h1 class="2xl:text-7xl 2xl:mt-20 2xl:pt-20 lg:text-4xl font-bold text-white text-center phone:text-3xl">
                                 Alberto <span
                                     class="text-purple-500">Slavica </span>Portfolio</h1>
-                            <p class="2xl:text-3xl mt-6 text-lg leading-8 text-gray-300 sm:text-center">Full-Stack Web
+                            <p class="2xl:text-3xl mt-6 text-lg leading-8 text-center font-semibold text-gray-100 sm:text-center">Full-Stack Web
                                 Developer with
                                 a
                                 passion for coding and designing beautiful blazingly fast and responsive apps</p>
-                            <div class="mt-4 flex gap-x-4 sm:justify-center">
-                                <div class="container m-5">
-                                    <div class="chevron"></div>
-                                    <div class="chevron"></div>
-                                    <div class="chevron"></div>
-                                    <span class="text">Scroll down</span>
-                                </div>
-                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="mt-4 flex gap-x-4 phone:justify-center">
+                        <div class="containeras flex ju-">
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <span class="text">Scroll down</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     {{-- Feature --}}
-    <div class="py-12 sm:py-32 lg:py-12 background-image-form pb-20">
+    <div class="py-12 sm:py-32 lg:py-12 background-image-form pb-20 sm:h-screen">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 p-20">
             <div class="sm:text-center pb-20">
                 <h2 class="text-lg 2xl:text-3xl 2xl:mt-20 font-semibold leading-8 text-gray-400">Skills</h2>
@@ -48,12 +47,11 @@
                     are reusable.</p>
             </div>
 
-            <div class="mt-15 max-w-lg 2xl:max-w-none sm:mx-auto md:max-w-none pb-5">
-                <div class="grid grid-cols-1 gap-y-3 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
+            <div class="mt-15  2xl:max-w-none sm:mx-auto md:max-w-none pb-5">
+                <div class="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
                     <div class="relative flex flex-col gap-4 sm:flex-row md:flex-col lg:flex-row">
                         <div
                             class="flex h-12 p-2 text-black w-12 items-center justify-center rounded-xl bg-white text-black sm:shrink-0">
-                            <!-- Heroicon name: outline/globe-alt -->
                             <svg height="2500" viewBox="0 -.11376601 49.74245785 51.31690859" width="2418"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -62,7 +60,8 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold leading-8 2xl:text-4xl text-gray-100">Laravel, PHP and RUST.</p>
+                            <p class="text-lg font-semibold leading-8 2xl:text-4xl text-gray-100">Laravel, PHP and
+                                RUST.</p>
                             <p class="mt-2 text-base 2xl:text-2xl leading-7 text-gray-200">This is what I'm the best
                                 using. I developed few applications including e-commerces and management/administrative
                                 softwares for web and different CLI tools using RUST. </p>
@@ -71,7 +70,7 @@
 
                     <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
                         <div
-                            class="flex h-12 w-12 items-center justify-center rounded-xl  bg-white text-black sm:shrink-0">
+                            class="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-black sm:shrink-0">
                             <!-- Heroicon name: outline/scale -->
                             <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none"
                                  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
@@ -80,9 +79,11 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold 2xl:text-4xl leading-8 text-gray-100">React, Angular and Typescript.</p>
-                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">These are the front-end libraries, framework and languages that I know.
-                            Of course I know JS as-well but typescript is just better.</p>
+                            <p class="text-lg font-semibold 2xl:text-4xl leading-8 text-gray-100">React, Angular and
+                                Typescript.</p>
+                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">These are the front-end
+                                libraries, framework and languages that I know.
+                                Of course I know JS as-well but typescript is just better.</p>
                         </div>
                     </div>
 
@@ -97,8 +98,10 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg 2xl:text-4xl font-semibold leading-8 text-gray-100">MySQL, PostgresSQL, MongoDB</p>
-                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">These are the different kinds of databases I used for my personal projects and for work.</p>
+                            <p class="text-lg 2xl:text-4xl font-semibold leading-8 text-gray-100">MySQL, PostgresSQL,
+                                MongoDB</p>
+                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">These are the different
+                                kinds of databases I used for my personal projects and for work.</p>
                         </div>
                     </div>
 
@@ -113,8 +116,11 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg 2xl:text-4xl font-semibold leading-8 text-gray-100">Azure, AWS, Docker and Kubernetes</p>
-                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">In my current job I'm also using Azure and AWS depending on the project to deploy contenerized application orchestrated utilizing Kubernetes</p>
+                            <p class="text-lg 2xl:text-4xl font-semibold leading-8 text-gray-100">Azure, AWS, Docker and
+                                Kubernetes</p>
+                            <p class="mt-2  2xl:text-2xl text-base leading-7 text-gray-300">In my current job I'm also
+                                using Azure and AWS depending on the project to deploy contenerized application
+                                orchestrated utilizing Kubernetes</p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +128,7 @@
         </div>
     </div>
     </div>
-    <div class="h-screen flex items-center justify-center background-image-section">
+    <div class="sm:h-screen flex items-center justify-center background-image-section phone:p-8">
 
         <div class="max-w-2xl mx-auto">
             <div class="sm:text-center pb-4">
@@ -133,18 +139,18 @@
                 <p class="mx-auto mt-6 max-w-2xl text-lg leading-8  2xl:text-2xl text-gray-200"></p>
             </div>
 
-            <ol class="relative border-l border-gray-200 dark:border-gray-200 mt-10">
+            <ol class="relative border-l border-gray-200 border-gray-200 mt-10">
                 <li class="mb-10 ml-4">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-200 dark:bg-gray-500">
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white border-gray-200 bg-gray-500">
                     </div>
-                    <time class="mb-1  2xl:text-2xl text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                    <time class="mb-1  2xl:text-2xl text-sm font-normal leading-none text-gray-400 text-gray-300">
                         February 2022
                     </time>
-                    <h3 class="text-lg  2xl:text-3xl font-semibold text-gray-900 dark:text-white">Application UI code in
+                    <h3 class="text-lg  2xl:text-3xl font-semibold text-white">Application UI code in
                         Tailwind
                         CSS</h3>
-                    <p class="mb-4 mt-3  2xl:text-2xl text-base font-normal text-gray-500 dark:text-gray-300">Get access
+                    <p class="mb-4 mt-3  2xl:text-2xl text-base font-normal text-gray-300">Get access
                         to over 20+ pages
                         including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce &amp;
                         Marketing
@@ -152,14 +158,14 @@
                 </li>
                 <li class="mb-10 ml-4">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-200 dark:bg-gray-500">
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white border-gray-200 bg-gray-500">
                     </div>
-                    <time class="mb-1 2xl:text-2xl text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                    <time class="mb-1 2xl:text-2xl text-sm font-normal leading-none text-gray-400 text-gray-300">
                         March 2022
                     </time>
-                    <h3 class="text-lg 2xl:text-3xl font-semibold text-gray-900 dark:text-white">Marketing UI design in
+                    <h3 class="text-lg 2xl:text-3xl font-semibold text-white">Marketing UI design in
                         Figma</h3>
-                    <p class="text-base 2xl:text-2xl font-normal text-gray-500 dark:text-gray-300">All of the pages and
+                    <p class="text-base 2xl:text-2xl font-normal text-gray-300">All of the pages and
                         components
                         are first
                         designed in Figma and we keep a parity between the two versions even as we update the
@@ -167,15 +173,15 @@
                 </li>
                 <li class="ml-4">
                     <div
-                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-200 dark:bg-gray-500">
+                        class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white border-gray-200 bg-gray-500">
                     </div>
-                    <time class="mb-1 2xl:text-2xl text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+                    <time class="mb-1 2xl:text-2xl text-sm font-normal leading-none text-gray-400 text-gray-300">
                         April 2022
                     </time>
-                    <h3 class="text-lg 2xl:text-3xl font-semibold text-gray-900 dark:text-white">E-Commerce UI code in
+                    <h3 class="text-lg 2xl:text-3xl font-semibold text-white">E-Commerce UI code in
                         Tailwind
                         CSS</h3>
-                    <p class="text-base 2xl:text-2xl font-normal text-gray-500 dark:text-gray-300">Get started with
+                    <p class="text-base 2xl:text-2xl font-normal text-gray-300">Get started with
                         dozens of web
                         components
                         and interactive elements built on top of Tailwind CSS.</p>

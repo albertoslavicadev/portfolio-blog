@@ -5,24 +5,24 @@
                 @csrf
                 <div class="m-10">
                     <label name="name" for="large-input"
-                           class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                           class="block mb-2 text-sm font-medium text-gray-100 dark:text-white">Name</label>
                     <input name="name" type="text" id="large-input"
                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 </div>
                 <div class="m-10">
-                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Page_
+                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-100 dark:text-white">Page_
                         Link</label>
                     <input name="page_link" type="text" id="large-input"
                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 </div>
                 <div class="m-10">
-                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Github_link</label>
+                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-100 dark:text-white">Github_link</label>
                     <input name="github_link" type="text" id="large-input"
                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 </div>
                 <div class="m-10">
-                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description</label>
-                    <input name="description" type="text" id="large-input"
+                    <label for="large-input" class="block mb-2 text-sm font-medium text-gray-100 dark:text-white">Description</label>
+                    <input name="description" type="textarea" id="large-input"
                            class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 </div>
                 <button type="submit"
