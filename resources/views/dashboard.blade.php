@@ -50,7 +50,7 @@
                 <div class="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
                     <div class="relative flex flex-col gap-4 sm:flex-row md:flex-col lg:flex-row">
                         <div
-                            class="flex h-12 p-2 text-black w-12 items-center justify-center rounded-xl bg-white text-black sm:shrink-0">
+                            class="flex h-12 p-2 text-black w-12 items-center justify-center rounded-xl bg-white sm:shrink-0">
                             <svg height="2500" viewBox="0 -.11376601 49.74245785 51.31690859" width="2418"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -59,7 +59,7 @@
                             </svg>
                         </div>
                         <div class="sm:min-w-0 sm:flex-1">
-                            <p class="text-lg font-semibold leading-8 2xl:text-4xl text-gray-100">Laravel, PHP and
+                            <p class="text-lg font-semibold leading-8 2xl:text-3xl text-gray-100">Laravel, PHP and
                                 RUST.</p>
                             <p class="mt-2 text-base 2xl:text-2xl leading-7 text-gray-200">This is what I'm the best
                                 using. I developed few applications including e-commerces and management/administrative

@@ -39,3 +39,5 @@ Route::get('/works', function () {
 });
 
 Route::resource('works', App\Http\Controllers\WorkController::class);
+
+Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index']);
